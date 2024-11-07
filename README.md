@@ -5,7 +5,7 @@
 Projeto desenvolvido com o intuito de criar um site simples de notícias.
 
 ![Demonstração da Aplicação](./img/demo1.png)
-![Demonstração da Aplicação](./img/demo2.png)
+![Demonstração da Aplicação](./img/demo3.png)
 ![Demonstração da Aplicação](./img/demo6.png)
 
 ## Aplicação
