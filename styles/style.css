@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+.nav-link {
+    padding: 10px;
+    z-index: 9999;
+}
+
+.content {
+    padding: 20px;
+}
+
+.capa {
+    width: 500px;
+    height: 300px;
+}
+
+.carousel {
+    text-shadow: #000 1px 1px 1px;
+
+}
+
+.carousel img {
+    width: 600px;
+}
+
+.card {
+    margin-top: 40px;
+    border-top: 4px solid #007bff;
+}
+
+.card img {
+    height: 300px;
+}
+
+.img-fluid {
+    padding-top: 30px;
+}
+
+.footer {
+    background-color: #278fff;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footer img {
+    height: 40px;
+    width: 40px;
+    margin: 0 30px;
+}
+
+.footer-copyright {
+    background-color: #007bff;
+}
+
+.footer-copyright a {
+    color: #fff;
+}

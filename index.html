@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Home - GG News</title>
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info .container-fluid py-3">
+        <a class="navbar-brand" href="#">GG News</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="pages/jornalismo.html">Jornalismo</a>
+            <a class="nav-link" href="pages/esporte.html">Esporte</a>
+            <a class="nav-link" href="pages/fofocas.html">Fofocas</a>
+            <a class="nav-link" href="pages/games.html">Games</a>
+            <a class="nav-link" href="pages/contato.html">Entre em contato</a>
+          </div>
+        </div>
+    </nav>
+
+    <div class=".container">
+        <div class="d-flex p-2 bd-highlight justify-content-center">
+            <div class="col-md-11">
+                <div class="bg-light">
+                    <div class="content">
+                        <h2>Principais Notícias</h2>
+
+                        <div class="d-flex bd-highlight justify-content-center">
+                          <div id="carouselNoticias" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselNoticias" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselNoticias" data-slide-to="1"></li>
+                              <li data-target="#carouselNoticias" data-slide-to="2"></li>
+                              <li data-target="#carouselNoticias" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="img/noticia-ifms.webp" class="d-block img-fluid">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>IFMS abre concurso público com 42 vagas para técnicos-administrativos</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/noticia-copa.webp" class="d-block img-fluid">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Fifa vai antecipar em um dia data de início da Copa do Mundo</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/noticia-gisele.webp" class="d-block img-fluid">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Gisele Bündchen deixa mansão após brigas com Tom Brady</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/noticia-fifa.webp" class="d-block img-fluid">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>'Fifa 23' vai ser lançado em 30 de setembro e terá Copas masculina e feminina</h5>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselNoticias" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselNoticias" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </button>
+                          </div>
+                        </div>
+
+                        <div class="row row-cols-1 row-cols-md-3">
+                          <div class="col mb-4">
+                            <div class="card h-100 shadow-lg">
+                              <img
+                                src="img/noticia-desfile.webp"
+                                class="card-img-top"
+                                alt="capa da noticia"
+                              />
+                              <div class="card-body">
+                                <a href="pages/fofocas.html"
+                                  ><span class="badge badge-primary">Jornalismo</span></a
+                                >
+                                <p class="text-secondary">07/09/2022</p>
+                                <h5 class="card-title">
+                                  População lota avenida para ver desfile cívico em Nova
+                                  Andradina
+                                </h5>
+                                <p class="card-text">
+                                  Após dois anos sem comemorar o Dia da Pátria, em razão
+                                  das restrições sanitárias ao período pandêmico, Nova
+                                  Andradina voltou a receber o tradicional desfile.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col mb-4">
+                            <div class="card h-100 shadow-lg">
+                              <img
+                                src="img/noticia-copa.webp"
+                                class="card-img-top"
+                                alt="capa da noticia"
+                              />
+                              <div class="card-body">
+                                  <a href="pages/esporte.html"
+                                    ><span class="badge badge-success">Esporte</span></a
+                                  >
+                                <h5 class="card-title">
+                                  Fifa vai antecipar em um dia data de início da Copa do
+                                  Mundo
+                                </h5>
+                                <p class="text-secondary">09/08/2022</p>
+                                <p class="card-text">
+                                  Entidade deve colocar Catar x Equador no domingo, dia 20
+                                  de novembro, para marcar início do Mundial.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col mb-4">
+                            <div class="card h-100 shadow-lg">
+                              <img
+                                src="img/noticia-gisele.webp"
+                                class="card-img-top"
+                                alt="capa da noticia"
+                              />
+                              <div class="card-body">
+                                <a href="pages/fofocas.html"
+                                  ><span class="badge badge-warning">Fofocas</span></a
+                                >
+                                <p class="text-secondary">01/09/2022</p>
+                                <h5 class="card-title">
+                                  Gisele Bündchen deixa mansão após brigas com Tom Brady
+                                </h5>
+                                <p class="card-text">
+                                  Modelo teria viajado para Costa Rica; desentendimentos
+                                  do casal seria motivado pela desistência do atleta em se
+                                  aposentar.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col mb-4">
+                            <div class="card h-100 shadow-lg">
+                              <img
+                                src="img/noticia-fifa.webp"
+                                class="card-img-top"
+                                alt="capa da noticia"
+                              />
+                              <div class="card-body">
+                                <a href="pages/games.html"
+                                  ><span class="badge badge-danger">Games</span></a
+                                >
+                                <p class="text-secondary">20/07/2022</p>
+                                <h5 class="card-title">
+                                  'Fifa 23' vai ser lançado em 30 de setembro e terá Copas
+                                  masculina e feminina
+                                </h5>
+                                <p class="card-text">
+                                  Game será o último da parceria entre EA Sports e a
+                                  entidade organizadora do futebol mundial.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="d-flex bd-highlight justify-content-center">
+                            <img src="img/Slogan.png" class="img-fluid" alt="Slogan">
+                          </div>
+                      </div>
+                    </div>    
+                  </div>
+                </div>
+                
+                <div class=".container">
+                </div>
+                
+<div class="footer">
+  <div class="container">
+      <div class="col-md-12 py-4">
+        <div class="mb-5 d-flex p-2 bd-highlight justify-content-center">
+          <a href="https://www.facebook.com/gustavocruzpinheiro"><img src="img/facebook-logotipo.png" alt="face"></a>
+          <a href="https://www.instagram.com/gusttavo.cruz_/"><img src="img/instagram-logotipo.png" alt="insta"></a>
+          <a href="https://www.linkedin.com/in/gustavo-cruz-pinheiro-61b852217/"><img src="img/linkedin-logotipo.png" alt="linkedin"></a>
+        </div>
+    </div>
+  </div>
+
+  <div class="footer-copyright text-center py-3">©2022
+    <strong>Gustavo Cruz Pinheiro</strong>. Todos os direitos reservados.
+  </div>
+</div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html> 
