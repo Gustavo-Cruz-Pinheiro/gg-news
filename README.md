@@ -16,6 +16,8 @@ Para o desenvolvimento da aplicação foram utilizadas as seguintes tecnologias:
 * JavaScript
 * HTML
 * CSS
+* Bootstrap
+* Google Fonts
 
 ## Executando
 
